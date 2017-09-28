@@ -59,7 +59,7 @@ define(function (require) {
 		payload['arguments'] = payload['arguments'] || {};
 		payload['arguments'].execute = payload['arguments'].execute || {};
 		payload['arguments'].execute.inArguments = [{
-			'serviceCloudId': '{{Event.' + eventDefinitionKey + '.\"<EVENT DATA ID PATH>\"}}'
+			'serviceCloudId': '{{Event.' + eventDefinitionKey + '.\"VehicleRelationship__c_Salesforce:VR_Contact__c\"}}'
 		}];
 
 		payload['metaData'] = payload['metaData'] || {};
