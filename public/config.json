@@ -1,5 +1,5 @@
 {
-	"key": "<Custom_split>",
+	"key": "Custom_split",
 	"metaData": {
 		"icon": "images/icon.png",
 		"iconSmall": "images/icon_small.png"
@@ -13,23 +13,23 @@
 	},
 	"workflowApiVersion": "1.1",
 	"configurationArguments": {
-		"applicationExtensionKey": "<Custom_split>",
+		"applicationExtensionKey": "Custom_split",
 		"save": {
-			"url": "https://<URL OF THE SERVER RUNNING THE BACKEND>/activity/save",
+			"url": "https://custom-activity-mar17.herokuapp.com/activity/save",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
 			"customerKey": "<saltkeyforcustomactivity>"
 		},
 		"publish": {
-			"url": "https://<URL OF THE SERVER RUNNING THE BACKEND>/activity/publish",
+			"url": "https://custom-activity-mar17.herokuapp.com/activity/publish",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
 			"customerKey": "<saltkeyforcustomactivity>"
 		},
 		"validate": {
-			"url": "https://<URL OF THE SERVER RUNNING THE BACKEND>/activity/validate",
+			"url": "https://custom-activity-mar17.herokuapp.com/activity/validate",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
@@ -69,7 +69,7 @@
 		"execute": {
 			"inArguments": [],
 			"outArguments": [],
-			"url": "https://<URL OF THE SERVER RUNNING THE BACKEND>/activity/execute",
+			"url": "https://custom-activity-mar17.herokuapp.com/activity/execute",
 			"verb": "POST",
 			"body": "",
 			"header": "",
@@ -80,7 +80,7 @@
 		}
 	},
 	"edit": {
-		"url": "https://<URL OF THE SERVER RUNNING THE BACKEND>/index.html",
+		"url": "https://custom-activity-mar17.herokuapp.com/public/index.html",
 		"height": 200,
 		"width": 500
 	}
