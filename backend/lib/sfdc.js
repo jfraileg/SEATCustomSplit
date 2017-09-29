@@ -77,7 +77,7 @@ class ServiceCloud {
 		if (!/^([a-zA-Z0-9]{15}|[a-zA-Z0-9]{18})$/g.test(id)) return cb(new Error('Invalid Salesforce-Id given.'));
 
 		const self = this;
-		const query = 'SELECT <VR_Contact__C> FROM <VehicleRelationship__c_Salesforce> WHERE Id = \'' + id + '\'';
+		const query = 'SELECT Name FROM VehicleRelationship__c WHERE VR_Contact__C = \'' + id + '\'';
 
 		// Login if necessary
 		self._login((e) => {
