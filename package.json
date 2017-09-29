@@ -17,7 +17,7 @@
 			"serviceCloud": {
 				"username": "seat.crm.sfdc@everis.com.uat",
 				"password": "seat.everis1",
-				"loginUrl": "https://test.salesforce.com/"
+				"loginUrl": "https://test.salesforce.com"
 			},
 			"marketingCloud": {
 				"jwtSecret": "saltkeyforcustomactivity"
