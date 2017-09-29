@@ -19,21 +19,21 @@
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
-			"customerKey": "<saltkeyforcustomactivity>"
+			"customerKey": "saltkeyforcustomactivity"
 		},
 		"publish": {
 			"url": "https://custom-activity-mar17.herokuapp.com/activity/publish",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
-			"customerKey": "<saltkeyforcustomactivity>"
+			"customerKey": "saltkeyforcustomactivity"
 		},
 		"validate": {
 			"url": "https://custom-activity-mar17.herokuapp.com/activity/validate",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
-			"customerKey": "<saltkeyforcustomactivity>"
+			"customerKey": "saltkeyforcustomactivity"
 		}
 	},
 	"wizardSteps": [
@@ -75,7 +75,7 @@
 			"header": "",
 			"format": "json",
 			"useJwt": true,
-			"customerKey": "<saltkeyforcustomactivity>",
+			"customerKey": "saltkeyforcustomactivity",
 			"timeout": 90000
 		}
 	},
